@@ -5,6 +5,8 @@ import uvicorn
 
 from core.config import config
 
+import sys
+print(sys.executable)
 
 @click.command()
 @click.option(
